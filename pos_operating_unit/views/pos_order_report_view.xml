@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+    <record id="view_report_pos_order_search" model="ir.ui.view">
+        <field name="name">report.pos.order.search</field>
+        <field name="model">report.pos.order</field>
+        <field name="inherit_id" ref="point_of_sale.view_report_pos_order_search" />
+        <field name="arch" type="xml">
+            <filter name="product_category" position="after">
+                <filter
+                    string="Operating Units"
+                    name="operating_units"
+                    context="{'group_by':'operating_unit_ids'}"
+                />
+            </filter>
+        </field>
+    </record>
+
+</odoo>
