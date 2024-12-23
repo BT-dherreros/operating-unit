@@ -78,6 +78,8 @@ Contributors
 
    -  Ilyas <irazor147@gmail.com>
 
+-  Daniel Herreros <daniel.herreros@braintec.com>
+
 Maintainers
 -----------
 

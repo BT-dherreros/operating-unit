@@ -8,6 +8,7 @@
     "license": "LGPL-3",
     "data": [
         "security/pos_security.xml",
+        "views/pos_order_report_view.xml",
         "views/pos_views.xml",
         "views/res_config_settings_views.xml",
     ],
