@@ -81,7 +81,6 @@ class StockMove(models.Model):
         """
         res = super(StockMove, self)._action_done(cancel_backorder)
         for move in self:
-
             if move.product_id.valuation == "real_time":
                 # Inter-operating unit moves do not accept to
                 # from/to non-internal location
